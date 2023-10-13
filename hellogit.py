@@ -38,4 +38,9 @@ git switch login hace que el head este en login y el main queda aparte (creamo o
 git merge main desde la rama login lo que hace es traer los cambios realizados en la rama del comando (main) a la rama actual en la que estamos (login)
 cuando dos "equipos" modifican la misma linea de codigo del mismo fichero, porque el equipo de una rama ha modificado ficheros de la otra rama, git no deja
     hacer un merge, nos dice en que se diferencia cada fichero y tenemos que elegir con que version nos quedamos
+git stash guarda teporalmente algo en lo que estamos trabajando, sin hacer commit, para si por ejemplo estamos trabajando en una rama y queremos ir a otra,
+    sin hacer commit porque las modificaciones que estamos realizando estan incompletas. Al hacer stash automaticamente la rama enla que estamos vuelve al commit anterior y lo que hubieramos cambiado se queda guardado en el stash
+git stash list nos muestra una lista de los stash
+git pop nos devuelve al stash, recuperando las modificaciones que habiamos guardado en el
+git drop borra el stash
 '''
