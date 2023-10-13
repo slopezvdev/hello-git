@@ -36,4 +36,6 @@ git switch login hace que el head este en login y el main queda aparte (creamo o
     si hacemos un commit se guardara en la rama login, sin afectar a la rama main
     si volvemos a la rama main, no veremos las modificaciones guardadas dentro de la rama login y viceversa, aunque estan guardadas en esa rama
 git merge main desde la rama login lo que hace es traer los cambios realizados en la rama del comando (main) a la rama actual en la que estamos (login)
+cuando dos "equipos" modifican la misma linea de codigo del mismo fichero, porque el equipo de una rama ha modificado ficheros de la otra rama, git no deja
+    hacer un merge, nos dice en que se diferencia cada fichero y tenemos que elegir con que version nos quedamos
 '''
