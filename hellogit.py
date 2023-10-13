@@ -10,4 +10,5 @@ git log para ver todos los commits
 git log --graph para ver mas grafico
 git log --graph --pretty=oneline sale a una linea
 git log --graph --decorate --all --oneline el hash sale resumido y sale a una linea
+git config --global alias.tree "log --graph --decorate --all --oneline" para guardar esa forma de ver los commits con un alias
 '''
