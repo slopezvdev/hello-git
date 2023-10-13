@@ -30,5 +30,11 @@ git reset --hard y el hash de el commit "borrado" al que queremos volver para vo
 git tag clase_1 pone una etiqueta a el commit en el que nos encontramos
 git tag nos muestra una lista de los diferentes tags
 git checkout tags/clase_1 lleva el head a el tag puesto
+git revert borra un commit en concreto y crea uno ultimo con los cambios realizados (buscar info)
+git branch login crea una rama diferente a main, llamada login, en el mismo commit en el que estamos, teniendo el head en el main y aparte tenemos el login
+git switch login hace que el head este en login y el main queda aparte (creamo otra rama para no mezclar cosas, en este caso para hacer un log in)
+    si hacemos un commit se guardara en la rama login, sin afectar a la rama main
+    si volvemos a la rama main, no veremos las modificaciones guardadas dentro de la rama login y viceversa, aunque estan guardadas en esa rama
+git merge main desde la rama login lo que hace es traer los cambios realizados en la rama del comando (main) a la rama actual en la que estamos (login)
 
 '''
