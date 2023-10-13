@@ -44,4 +44,5 @@ git stash guarda teporalmente algo en lo que estamos trabajando, sin hacer commi
 git stash list nos muestra una lista de los stash
 git pop nos devuelve al stash, recuperando las modificaciones que habiamos guardado en el
 git drop borra el stash
+git branch -d login borra la rama, las ramas son temporales, todo termina en el main, y las ramas se van borrando
 '''
