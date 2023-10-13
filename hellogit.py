@@ -20,6 +20,7 @@ touch .gitignore para crear un fichero donde vamos a meter otros ficheros que no
 en el .gitignore ponemos **/ y el nombre del archivo a ignorar, como **/.DS_Store (es un archivo que genera automaticamente mac en todas las carpetas)
 el .gitignore se debe añadir a git
 git diff para ver las diferencias que hay entre lo guardado en commit y lo modificado
+    vale tanto para ficheros como para ramas
 git checkout y el hash del commit deseado para volver a un guardado anterior (podemos poner el hash reducido)
 git checkout head para indicar que es la nueva cabeza del proyecto (se guardan las anteriores versiones, pero en "una rama de la que hemos vuelto atras")
 git guarda todo a nivel local, y cuando parece que yendo a un commit anterior borramos informacion o archivos, en realidad git lo tiene guardado
