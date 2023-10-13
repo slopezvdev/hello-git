@@ -28,4 +28,7 @@ git reset --hard y el hash de donde queremos volver, lo que hace es llevar el he
 git reflog muestra el historial completo de interacciones realizadas en git, donde podemos ver el hash de lo que hemos "borrado"
 git reset --hard y el hash de el commit "borrado" al que queremos volver para volver a el
 git tag clase_1 pone una etiqueta a el commit en el que nos encontramos
+git tag nos muestra una lista de los diferentes tags
+git checkout tags/clase_1 lleva el head a el tag puesto
+
 '''
