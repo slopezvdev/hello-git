@@ -48,3 +48,9 @@ git pull se descarga el historial con los cambios
 si la version local tiene conflicto con la version de github, la terminal nos devolvera un error, donde nos da varias opciones, como lo que queremos hacer
     es un merge, cogemos el texto que nos pone al lado de merge y lo introducimos en la terminal, despues de eso lanzamos el git pull origin main para traer
     a local todas las actualizaciones que se hayan hecho en github
+git clone git@github.com:slopezvdev/hello-git.git copia el repositorio a donde ejecutemos este comando, el link lo da github cuado damos a <>code y en ssh
+    copiamos el link que nos da
+si le damos a fork en un repositorio de otra persona nos genera una copia en un repositorio nuestro, pudiendo modificarlo
+si cambia algo en el repositorio original, le damos a Sync fork y se sincronizan los cambios en el nuestro
+si consideramos que lo que hemos modificado se podria subir al repositorio original, le damos a contribute y a open pull request, ponemos un titulo y creamos
+el pull request, el propietario original del repositorio le aparecera el pull request, y decide si lo incluye en el repositorio y tiene que hacer merge
